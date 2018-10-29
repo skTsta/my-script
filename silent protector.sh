@@ -1,3 +1,5 @@
+#!/bin/bash
+
 start(){
 while true
 do
@@ -35,8 +37,6 @@ done
 stop(){
 echo do something here
 }
-
-
 
 case $1 in
 	start) 
